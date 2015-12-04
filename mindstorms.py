@@ -10,7 +10,11 @@ def draw_square():
     for x in xrange(4):
         brad.forward(100)
         brad.right(90)
-        
+
+    angie = turtle.Turtle()
+    angie.shape("arrow")
+    angie.color("pink")
+    angie.circle(50)
     
     window.exitinclick()
 
